@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">SampleMovie</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="banner_id">ca-app-pub-3524852624424593~5281515290</string>
+</resources>
