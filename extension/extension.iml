@@ -23,24 +23,59 @@
         <option name="PROJECT_TYPE" value="1" />
       </configuration>
     </facet>
+    <facet type="kotlin-language" name="Kotlin">
+      <configuration version="3" platform="JVM 1.6" useProjectSettings="false">
+        <compilerSettings />
+        <compilerArguments>
+          <option name="destination" value="$MODULE_DIR$/build/tmp/kotlin-classes/debug" />
+          <option name="classpath" value="$USER_HOME$/.gradle/caches/transforms-2/files-2.1/0e826a4e4daa3241055ce95e53487ef3/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/5d92e39ab086d33078aef63de394be3f/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/9e72d106282e6c06367abf9bf76e6ecd/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/fe3e436761b43bc5e2309a9f27fc56ed/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/77a47a8be9ef5ae35e093a7de8dfbc97/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/a7a8b01533d17c91e62b539c508c53d5/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/50010850214bc173688136317a5bdd85/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/d34ff2b09e6812b651493ab7617993b9/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/e6d6bd158d41378e1abbeb7f06b9f5a5/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/d46b0e528d245cd593a739a9e69fb4bd/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/f9c986b6c11561efb8d08f914f0c693f/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/db03822be6e9b85c94fe5083ccc7f558/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/89a4b7c1f5e31f5e8e3ba4d94f41058a/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/4ecddb0ed6a0f8cff62da3375ab74a9f/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/1b183418165456b336a30ae21594616e/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/98daba7062802d53ec99c185c4b39620/jars/classes.jar:/home/sun/.gradle/caches/modules-2/files-2.1/androidx.collection/collection/1.0.0/42858b26cafdaa69b6149f45dfc2894007bc2c7a/collection-1.0.0.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/f455706b062875c7f2e6a5391462c5f8/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/9916d36d2734f8070f34072f3a142a07/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/d586386443602e8f7aae65372a260e81/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/b53e970b3cc4ab22ff12390210f8cd52/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/cdc3c29a81d546f3cd53a88b8f42a248/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/d76e47aaa26362711783f39b1e3e2da2/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/f0f15f5196b7225a177872c6ecd6b1cb/jars/classes.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/2acccd84d8908479a43c3d53d4c9f34b/jars/classes.jar:/home/sun/.gradle/caches/modules-2/files-2.1/androidx.lifecycle/lifecycle-common/2.0.0/e070ffae07452331bc5684734fce6831d531785c/lifecycle-common-2.0.0.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/edfa687e1a107abedaaea6e783f0ea62/jars/classes.jar:/home/sun/.gradle/caches/modules-2/files-2.1/androidx.arch.core/core-common/2.0.0/bb21b9a11761451b51624ac428d1f1bb5deeac38/core-common-2.0.0.jar:/home/sun/.gradle/caches/transforms-2/files-2.1/2ac5af355583dc7d244df3308c6645e6/jars/classes.jar:/home/sun/.gradle/caches/modules-2/files-2.1/androidx.annotation/annotation/1.0.0/45599f2cd5965ac05a1488fa2a5c0cdd7c499ead/annotation-1.0.0.jar:/home/sun/TMA/Demo/SampleDemo/extension/build/intermediates/compile_only_not_namespaced_r_class_jar/debug/generateDebugRFile/R.jar:/home/sun/Android/Sdk/platforms/android-28/android.jar" />
+          <option name="noStdlib" value="true" />
+          <option name="noReflect" value="true" />
+          <option name="moduleName" value="extension_debug" />
+          <option name="addCompilerBuiltIns" value="true" />
+          <option name="loadBuiltInsFromDependencies" value="true" />
+          <option name="languageVersion" value="1.3" />
+          <option name="apiVersion" value="1.3" />
+          <option name="pluginOptions">
+            <array>
+              <option value="plugin:org.jetbrains.kotlin.android:experimental=false" />
+              <option value="plugin:org.jetbrains.kotlin.android:enabled=true" />
+              <option value="plugin:org.jetbrains.kotlin.android:defaultCacheImplementation=hashMap" />
+            </array>
+          </option>
+          <option name="pluginClasspaths">
+            <array>
+              <option value="$USER_HOME$/.gradle/caches/modules-2/files-2.1/org.jetbrains.kotlin/kotlin-android-extensions/1.3.21/311c0d1cbb0a194e8712edaef7b92a8f0919ca26/kotlin-android-extensions-1.3.21.jar" />
+            </array>
+          </option>
+          <option name="errors">
+            <ArgumentParseErrors />
+          </option>
+        </compilerArguments>
+      </configuration>
+    </facet>
   </component>
   <component name="NewModuleRootManager" LANGUAGE_LEVEL="JDK_1_7">
     <output url="file://$MODULE_DIR$/build/intermediates/javac/debug/compileDebugJavaWithJavac/classes" />
     <output-test url="file://$MODULE_DIR$/build/intermediates/javac/debugUnitTest/compileDebugUnitTestJavaWithJavac/classes" />
     <exclude-output />
     <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debug/compileDebugAidl/out" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debug/compileDebugRenderscript/out" isTestSource="false" generated="true" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kaptKotlin/debug" isTestSource="false" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/debug" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/debug" type="java-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/debugAndroidTest" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/androidTest/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/aidl_source_output_dir/debugAndroidTest/compileDebugAndroidTestAidl/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/buildConfig/androidTest/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/renderscript_source_output_dir/debugAndroidTest/compileDebugAndroidTestRenderscript/out" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/rs/androidTest/debug" type="java-test-resource" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/res/resValues/androidTest/debug" type="java-test-resource" />
+      <sourceFolder url="file://$MODULE_DIR$/build/generated/source/kapt/debugUnitTest" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/build/generated/source/apt/test/debug" isTestSource="true" generated="true" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/res" type="java-resource" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/resources" type="java-resource" />
