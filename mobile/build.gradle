@@ -2,7 +2,12 @@ apply plugin: 'com.android.application'
 
 apply plugin: 'kotlin-android'
 
+/*https://kotlinlang.org/docs/tutorials/android-plugin.html*/
 apply plugin: 'kotlin-android-extensions'
+
+/*https://kotlinlang.org/docs/reference/kapt.html*/
+
+apply plugin: 'kotlin-kapt'
 
 android {
     compileSdkVersion 28
@@ -20,11 +25,26 @@ android {
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
         }
     }
+    flavorDimensions "default"
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion = '28.0.3'
+    productFlavors {
+        staging {
+            dimension = 'default'
+        }
+        production {
+            dimension = 'default'
+        }
+    }
+
 }
 
 dependencies {
     implementation fileTree(dir: 'libs', include: ['*.jar'])
-    implementation"org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
+    implementation "org.jetbrains.kotlin:kotlin-stdlib-jdk7:$kotlin_version"
     implementation 'androidx.appcompat:appcompat:1.0.2'
     implementation 'androidx.core:core-ktx:1.0.2'
     implementation 'com.google.android.material:material:1.0.0'
