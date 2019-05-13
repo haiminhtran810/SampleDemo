@@ -29,6 +29,21 @@ android {
         }
     }
 
+    flavorDimensions "default"
+    compileOptions {
+        sourceCompatibility = JavaVersion.VERSION_1_8
+        targetCompatibility = JavaVersion.VERSION_1_8
+    }
+    buildToolsVersion = '28.0.3'
+    productFlavors {
+        stagin {
+            dimension = 'default'
+        }
+        production {
+            dimension = 'default'
+        }
+    }
+
 }
 
 dependencies {

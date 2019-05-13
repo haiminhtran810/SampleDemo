@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+	<dimen name="dp_1">1.43dp</dimen>
+	<dimen name="dp_10">14.31dp</dimen>
+	<dimen name="dp_2">2.86dp</dimen>
+	<dimen name="dp_3">4.29dp</dimen>
+	<dimen name="dp_4">5.72dp</dimen>
+	<dimen name="dp_5">7.15dp</dimen>
+	<dimen name="dp_6">8.58dp</dimen>
+	<dimen name="dp_7">10.01dp</dimen>
+	<dimen name="dp_8">11.44dp</dimen>
+	<dimen name="dp_9">12.88dp</dimen>
+</resources>
